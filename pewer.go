@@ -4,12 +4,12 @@
 
 package main
 
-import (
+import(
 	"fmt"
 	"os"
 )
 
-const (
+const(
 	YellowColor = "\033[1;33m%s\033[0m"
 )
 
@@ -19,7 +19,7 @@ func check(e error) {
 	}
 }
 
-func main() {
+func main(){
 
 	fmt.Printf(YellowColor, "\n Welcome to Pever. Here are your power statistics!\n")
 
