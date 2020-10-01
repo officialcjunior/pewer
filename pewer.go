@@ -21,7 +21,7 @@ func check(e error) {
 
 func main(){
 
-	fmt.Printf(YellowColor, "\n Welcome to Pever. Here are your power statistics!\n")
+	fmt.Printf(YellowColor, "\n Welcome to pewer. Here are your power statistics!\n")
 
 	f, err := os.Open("/sys/class/power_supply/BAT0/capacity")
 	check(err)
