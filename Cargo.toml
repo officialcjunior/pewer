@@ -1,0 +1,13 @@
+[package]
+name = "pewer"
+version = "0.1.0"
+edition = "2018"
+authors = ["officialcjunior <realc@protonmail.com>"]
+license = "MIT"
+repository = "https://github.com/officialcjunior/pewer"
+keywords = ["cli", "linux"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
